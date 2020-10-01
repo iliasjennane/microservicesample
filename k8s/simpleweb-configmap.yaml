@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simplewebconfig
+data:
+  apiURL: http://simpleapi/api/customers
+  LaunchDarklyKey: sdk-0224992f-7175-4c6d-b504-8858a0baa164
+  ASPNETCORE_ENVIRONMENT: Development
+  
+
+

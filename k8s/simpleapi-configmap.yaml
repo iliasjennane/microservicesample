@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simpleapiconfig
+data:
+  apiAppDatabaseServer: simpleapidbserver
+  apiAppDatabaseName: simpleapidb
+  apiAppDatabaseUser: sa
+  apiAppDatabasePassword: Microsoft2020!1
+
+
